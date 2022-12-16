@@ -6,4 +6,4 @@ def cadastro(request):
     return render(request, 'cadastro.html')
 
 def logar(request):
-    pass
+    return HttpResponse('logar')
